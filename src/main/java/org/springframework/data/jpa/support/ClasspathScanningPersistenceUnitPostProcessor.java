@@ -47,8 +47,11 @@ import org.springframework.util.StringUtils;
 
 /**
  * {@link PersistenceUnitPostProcessor} that will scan for classes annotated with {@link Entity} or
+ * PersistenceUnitPostProcessor 将扫描带有Entity,MappedSuperclass注解的类
  * {@link MappedSuperclass} and add them to the {@link javax.persistence.PersistenceUnit} post processed. Beyond that
+ * 并将他们添加到PersistenceUnit post 处理
  * JPA XML mapping files can be scanned as well by configuring a file name pattern.
+ * 除此之外,也可以通过配置文件名模式来扫描JPA XML映射文件。
  *
  * @author Oliver Gierke
  * @author Thomas Darimont
