@@ -53,6 +53,7 @@ import org.springframework.util.StringUtils;
  * JPA XML mapping files can be scanned as well by configuring a file name pattern.
  * 除此之外,也可以通过配置文件名模式来扫描JPA XML映射文件。
  *
+ *
  * @author Oliver Gierke
  * @author Thomas Darimont
  * @author Mark Paluch
